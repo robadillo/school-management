@@ -21,6 +21,6 @@ import { Lesson } from './lesson/lesson.entity';
       ]
     })
   ],
-  providers: [ LessonResolver ]
+  providers: []
 })
 export class AppModule {}
