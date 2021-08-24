@@ -18,4 +18,8 @@ export class LessonService {
 
     return this.lessonRepository.save(lesson);
   }
+
+  public async getLesson(id: string): Promise<Lesson> {
+    return this.lessonRepository.findOne({ id });
+  }
 }
